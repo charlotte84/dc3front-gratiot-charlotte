@@ -89,3 +89,15 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 
+@media screen and (max-width: 1200px) {
+    img {
+        width: calc(50% - 20px); 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: calc(100% - 20px); 
+    }
+}
+
