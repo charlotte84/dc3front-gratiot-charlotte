@@ -42,13 +42,7 @@ img {
 .galerie {
     position: relative; 
 
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    position: relative; 
-}
+
 
 }
 
@@ -71,3 +65,27 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    width: calc(33.33% - 20px); /*J'ai trouver cette ligne sur internet*/
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+
